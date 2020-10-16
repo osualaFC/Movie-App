@@ -15,7 +15,7 @@ class MovieDataSource (private val apiService : MovieDBInterface, private val co
 
     private var page = FIRST_PAGE
 
-    private val networkState: MutableLiveData<NetworkState> = MutableLiveData()
+    val networkState: MutableLiveData<NetworkState> = MutableLiveData()
 
     /**load first page***/
     override fun loadInitial(params: LoadInitialParams<Int>, callback: LoadInitialCallback<Int, Movie>) {

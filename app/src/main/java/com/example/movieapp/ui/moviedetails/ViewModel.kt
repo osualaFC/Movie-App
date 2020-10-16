@@ -3,7 +3,6 @@ package com.example.movieapp.ui.moviedetails
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import com.example.movieapp.data.MovieDetails
-import com.example.movieapp.repository.MovieDetailsRepository
 import com.example.movieapp.util.NetworkState
 import io.reactivex.disposables.CompositeDisposable
 

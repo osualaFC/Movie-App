@@ -13,7 +13,6 @@ import com.example.movieapp.network.MovieDBInterface
 import com.example.movieapp.data.MovieDetails
 import com.example.movieapp.network.MovieNetworkClient
 import com.example.movieapp.network.POSTER_BASE_URL
-import com.example.movieapp.repository.MovieDetailsRepository
 import com.example.movieapp.util.NetworkState
 import kotlinx.android.synthetic.main.activity_movie_details.*
 import java.text.NumberFormat
