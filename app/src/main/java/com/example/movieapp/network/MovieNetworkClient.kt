@@ -1,4 +1,4 @@
-package com.example.movieapp.data
+package com.example.movieapp.network
 
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
@@ -12,6 +12,9 @@ const val API_KEY = "9d6c64427ab395f6f6eb05b250e4850f"
 const val BASE_URL = "https://api.themoviedb.org/3/"
 
 const val POSTER_BASE_URL = "https://image.tmdb.org/t/p/w342"
+
+const val FIRST_PAGE = 1
+const val POST_PER_PAGE = 20
 
 object MovieNetworkClient {
 

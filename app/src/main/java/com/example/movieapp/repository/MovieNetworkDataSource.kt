@@ -3,7 +3,7 @@ package com.example.movieapp.repository
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.example.movieapp.data.MovieDBInterface
+import com.example.movieapp.network.MovieDBInterface
 import com.example.movieapp.data.MovieDetails
 import com.example.movieapp.util.NetworkState
 import io.reactivex.disposables.CompositeDisposable
