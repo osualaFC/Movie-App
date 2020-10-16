@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Movie App</string>
+    <string name="app_name">MovieList App</string>
     <string name="release_date">Release Date:</string>
     <string name="connection_problem">Connection Problem!!</string>
     <string name="movie">movie</string>
